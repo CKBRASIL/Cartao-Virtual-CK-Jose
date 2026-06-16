@@ -44,10 +44,10 @@ function toggleMusic() {
 function downloadVCard() {
     const vcard = `BEGIN:VCARD
 VERSION:3.0
-FN:Danielle Cordeiro | CK Brasil
+FN:José | CK Brasil
 ORG:CK Brasil
-TEL;TYPE=CELL,VOICE:+5511954627266
-EMAIL:danielle.cordeiro@ckbrasil.com.br
+TEL;TYPE=CELL,VOICE:+5511940332323
+EMAIL:representantecomercial@ckbrasil.com.br
 URL:https://ckbrasil.com.br
 ADR:;;Rua Portela de Góis, 225;São Paulo;SP;04829-070;Brazil
 END:VCARD`;
@@ -56,7 +56,7 @@ END:VCARD`;
     const url = window.URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = 'Danielle-CK-Brasil.vcf';
+    link.download = 'José-CK-Brasil.vcf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
